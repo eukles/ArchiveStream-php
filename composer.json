@@ -1,9 +1,9 @@
 {
-    "name": "barracudanetworks/archivestream-php",
+    "name": "eukles/archivestream-php",
     "type": "library",
     "description": "A library for dynamically streaming dynamic tar or zip files without the need to have the complete file stored on the server.",
     "keywords": ["zip", "tar", "archive", "stream", "php"],
-    "homepage": "https://github.com/barracudanetworks/ArchiveStream-php",
+    "homepage": "https://github.com/eukles/ArchiveStream-php",
     "license": "MIT",
     "require": {
         "php": ">=5.1.2",

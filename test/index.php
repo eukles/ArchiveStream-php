@@ -38,13 +38,13 @@ foreach ($files as $file)
 	$path = ($file[0] == '/') ? $file : "$pwd/$file";
 
 	// add file to archive
-	$zip->add_file_from_path('asdf/' . basename($file), $path, $file_opt);
+	$zip->addFileFromPath('asdf/' . basename($file), $path, $file_opt);
 }
 
 // add a long file name
-$zip->add_file('/long/' . str_repeat('a', 200) . '.txt', 'test');
-$zip->add_directory('/foo');
-$zip->add_directory('/foo/bar');
+$zip->addFile('/long/' . str_repeat('a', 200) . '.txt', 'test');
+$zip->addDirectory('/foo');
+$zip->addDirectory('/foo/bar');
 
 // finish archive
 $zip->finish();
